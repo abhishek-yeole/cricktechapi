@@ -66,7 +66,7 @@ def register():
             mysql.commit()
             cursor.close()
 
-            msg["Subject"] = "StoryCircle Verification"
+            msg["Subject"] = "CrickTech Verification"
             msg["From"] = "storycircle123@gmail.com"
             msg["To"] = data.get('email')
 
@@ -176,7 +176,7 @@ def forgot():
             mysql.commit()
             cursor.close()
 
-            msg["Subject"] = "StoryCircle Verification"
+            msg["Subject"] = "CrickTech Verification"
             msg["From"] = "storycircle123@gmail.com"
             msg["To"] = data.get('username')
 
