@@ -1,4 +1,4 @@
-[![CrickTech](https://cricktech.vercel.app/static/media/Road_Sense-removebg-preview.9cd8bd87714b03bbfd64.png)](https://cricktech.vercel.app/)
+[![CrickTech](https://cricktech.vercel.app/static/media/Road_Sense-removebg-preview.b109c5d8d6d88f54cabe.png)](https://cricktech.vercel.app/)
 # CrickTech
 ### Welcome to ComputeBot - Revolutionizing Your Cricket Experience.
 
