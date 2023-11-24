@@ -11,10 +11,10 @@ app = Flask(__name__)
 CORS(app)
 
 mysql = mysql.connector.connect(
-    host='sql12.freesqldatabase.com',
-    user='sql12653124',
-    password='kqM3CPBsqP',
-    database='sql12653124',
+    host= os.environ.get('MYSQL_HOST_NAME'),
+    user= os.environ.get('MYSQL_USER_DATABASE'),
+    password= os.environ.get('MYSQL_PASSWORD'),
+    database= os.environ.get('MYSQL_USER_DATABASE'),
     port=3306
 )
 
@@ -74,7 +74,7 @@ def register():
             msg.set_content(html_content, subtype='html')
 
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                smtp.login('storycircle123@gmail.com', 'njoexkbwuscrwdhf')
+                smtp.login('storycircle123@gmail.com', os.environ.get('GMAIL_APP_PASSWORD'))
                 smtp.send_message(msg)
 
             return jsonify({'success': True})
@@ -184,7 +184,7 @@ def forgot():
             msg.set_content(html_content, subtype='html')
 
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-                smtp.login('storycircle123@gmail.com', 'njoexkbwuscrwdhf')
+                smtp.login('storycircle123@gmail.com', os.environ.get('GMAIL_APP_PASSWORD'))
                 smtp.send_message(msg)
 
             return jsonify({'success': True})
