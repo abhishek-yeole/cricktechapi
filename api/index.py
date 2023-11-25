@@ -5,6 +5,7 @@ import string
 from flask_cors import CORS
 import smtplib
 import bcrypt
+import os
 import mysql.connector
 
 app = Flask(__name__)
