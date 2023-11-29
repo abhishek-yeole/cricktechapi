@@ -54,4 +54,4 @@ Installs the required the libraries on the local machine. Also install required 
 
 Runs the app in the development mode. Open [http://127.0.0.1:5000](http://127.0.0.1:5000) to view it in your browser.
 
-> **NOTE:** These are the API's endpoints that are developed. If you want to test the API's you can either change the config.jsx api Url's with `http://your-ip-address:5000/...` in the frontend of [https://github.com/abhishek-yeole/computegpt/blob/main/src/config.jsx](https://github.com/abhishek-yeole/computegpt/blob/main/src/config.jsx) or use POSTMAN or other services for it.
+> **NOTE:** These are the API's endpoints that are developed. If you want to test the API's you can either change the config.jsx api Url's with `http://your-ip-address:5000/...` in the frontend of [https://github.com/abhishek-yeole/cricktech/blob/main/src/config.jsx](https://github.com/abhishek-yeole/cricktech/blob/main/src/config.jsx) or use POSTMAN or other services for it.
