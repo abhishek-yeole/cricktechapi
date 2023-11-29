@@ -181,7 +181,7 @@ def forgot():
             msg["From"] = "storycircle123@gmail.com"
             msg["To"] = data.get('username')
 
-            html_content = render_template('pass.html', name=user['name'], otp=otp)
+            html_content = render_template('password.html', name=user['name'], otp=otp)
             msg.set_content(html_content, subtype='html')
 
             with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
